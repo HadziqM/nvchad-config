@@ -1,6 +1,5 @@
 local M = {}
 
-
 M.general = {
   n = {
     --split screen
@@ -30,6 +29,8 @@ M.general = {
     --copy line+move
     ["<M-S-Up>"]={"yyP<end>","copy line up"},
     ["<M-S-Down>"]={"yyp<end>","copy line down"},
+    --convinient
+    ["<C-h>"]={":nohlsearch","reset search"}
   },
   v = {
     --copy vscode
@@ -48,8 +49,11 @@ M.general = {
     --copy line+move
     ["<M-S-Up>"]={"<esc>yyP<end>","copy line up "},
     ["<M-S-Down>"]={"<esc>yyp<end>","copy line down"},
+    --convinient
+    ["<C-x>"]={"<C-o>ddi","cut line"},
+    ["<C-a>"]={"<esc>gg<S-v>G","select all"},
+    ["<C-v>"]={"<C-o>v<S-Right>","go to visual"},
+    ["<C-S-v>"]={"<C-o>p","paste"}
   }
 }
-
-
 return M
