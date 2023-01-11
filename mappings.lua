@@ -50,7 +50,7 @@ M.general = {
     ["<M-S-Up>"]={"<esc>yyP<end>","copy line up "},
     ["<M-S-Down>"]={"<esc>yyp<end>","copy line down"},
     --convinient
-    ["<C-x>"]={"<C-o>ddi","cut line"},
+    ["<C-x>"]={"<C-o>dd","cut line"},
     ["<C-a>"]={"<esc>gg<S-v>G","select all"},
     ["<C-v>"]={"<C-o>v<S-Right>","go to visual"},
     ["<C-S-v>"]={"<C-o>p","paste"}
