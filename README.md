@@ -9,6 +9,8 @@ this config intended for someone who migrate from vscode like me
 - Golang
 - Rust
 - Dart & Flutter
+- react (not maximized)
+- python & django (not maximized)
 
 ### Side Notes
 
