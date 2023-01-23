@@ -110,6 +110,11 @@ M.fluttertl = {
   end,
 }
 
+M.Telescope = {
+  config = function ()
+    require("telescope").load_extension("emoji")
+  end
+}
 
 -- Dap
 M.dap = {
@@ -146,6 +151,8 @@ return{
       require("flutter-tools").setup{} -- use defaults
     end
   },
-  ["mfussenegger/nvim-dap"] = M.dap
+  ["mfussenegger/nvim-dap"] = M.dap,
+  ["junegunn/vim-emoji"]=false,
+  ["xiyaowong/telescope-emoji.nvim"] = M.Telescope
 }
 

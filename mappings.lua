@@ -29,8 +29,9 @@ M.general = {
     --copy line+move
     ["<M-S-Up>"]={"yyP<end>","copy line up"},
     ["<M-S-Down>"]={"yyp<end>","copy line down"},
-    --convinient
-    ["<C-h>"]={":nohlsearch","reset search"}
+    ["<C-m>"]={":Telescope emoji<cr>","get emoji"},
+    --indent
+    -- just use >> or << and . to repeat action
   },
   v = {
     --copy vscode
@@ -53,7 +54,10 @@ M.general = {
     ["<C-x>"]={"<C-o>dd","cut line"},
     ["<C-a>"]={"<esc>gg<S-v>G","select all"},
     ["<C-v>"]={"<C-o>v<S-Right>","go to visual"},
-    ["<C-S-v>"]={"<C-o>p","paste"}
+    ["<C-S-v>"]={"<C-o>p","paste"},
+    ["<C-i>"]={"<C-o>:Telescope emoji<cr>","get emoji"},
+    ["<S-Right>"] = {"<end>","end  of line"},
+    ["<S-Left>"] = {"<home>","start  of line"},
   }
 }
 return M
