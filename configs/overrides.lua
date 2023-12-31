@@ -70,6 +70,7 @@ M.mason = {
     "prettier",
     -- for djinja or django templating
     "djlint",
+    "python-lsp-server",
 
     --data/content general
     "json-lsp",

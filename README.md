@@ -1,6 +1,6 @@
 # My NVChad Config
 
-Tailored for my use case in general purpose programing mainly using rust, and also web development using websassembly, and normal framework, also support some other language and dev environtment. The key config make use of VScode key binding for the most part.
+Tailored mainly for my use case on using rust, including web development using websassembly, and normal framework, but also support some other language and dev environtment. The key config make use of VScode key binding for the most part.
 
 ## Configured LSP and Linting
 ### web dev stuff
@@ -69,7 +69,7 @@ After installing the binary above you can proceed to config your neovim
 - goto the config folder and get into lua folder, example on linux are `.config/nvim/lua`
 - clone this repo into folder above and rename the cloned repo into `custom`
 - open neovim, Lazy plugin will install all the plugin for you, treesitter will also download all configured parsers
-- you will get on LSP saying buffer close but relax, its because you dont have all the configured lsp binaries
+- you might get error on LSP saying buffer closed but relax, its because you dont have all the configured lsp binaries
 - install all the lsp binaries using command `:MasonInstallAll`, then restart your nvim if done installing
 - enjoy coding with Neovim or Neovide if using it on top of Neovim
 
