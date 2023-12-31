@@ -70,10 +70,10 @@ M.general = {
     ["<C-x>"]={"<C-o>dd","cut line"},
     ["<C-a>"]={"<esc>gg<S-v>G","select all"},
     ["<C-v>"]={"<C-o>v<S-Right>","go to visual"},
-    ["<C-S-v>"]={"<C-o>p","paste"},
+    ["<C-S-v>"]={"<esc>pi","paste"},
     ["<C-i>"]={"<C-o>:Telescope emoji<cr>","get emoji"},
-    ["<S-Right>"] = {"<end>","end  of line"},
-    ["<S-Left>"] = {"<home>","start  of line"},
+    ["<S-Right>"] = {"<C-Right>","move next word"},
+    ["<S-Left>"] = {"<C-Left>","move prev word"},
   }
 }
 
