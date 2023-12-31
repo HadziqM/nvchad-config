@@ -49,10 +49,10 @@ Tailored for my use case in general purpose programing mainly using rust, and al
 ## Keybinding
 The key binding are match with vscode for the most part, since i port most useful keybind into neovim usage <br>
 ![Keybind](/files/cheatsheet.png)
-- <S-key> mean Shift + key
-- <M-key> mean Alt + key
-- <C-key> mean Ctrl + key
-- <leader> are configured as <Space> in default
+- `<S-key>` mean Shift + key
+- `<M-key>` mean Alt + key
+- `<C-key>` mean Ctrl + key
+- `<leader>` are configured as <Space> in default
 - Left,Right,Up and Down are the arrow/direction button
 
 ## Installation
